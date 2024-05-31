@@ -881,7 +881,8 @@ textarea{
 /*MOBILE SECTION*/
 @media only screen and (min-width: 200px) and (max-width: 576px) {
    body{
-     height: 100vh;
+     
+     overflow-x: hidden;
    }
    .header{
     width: 100%;
@@ -911,11 +912,13 @@ textarea{
     transform: scale(.7);
     position: relative;
     top: -200px;
+
 }
 .intro-div{
     transform: scale(.6);
     position: relative;
     top: 550px;
+    left: 30px;
 }
 .banner-two-header{
     top: 100px;
@@ -939,6 +942,9 @@ textarea{
     height: 125px;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    top: -20px;
+    transform: scale(.95);
     
 }
 .banner-two-footer-child1{
@@ -950,7 +956,7 @@ textarea{
   
 }
 .banner-two-footer-child1 h1{
-    font-size: 30px;
+    font-size: 25px;
 }
 .banner-two-footer-child1 h3{
     font-size: 13px;
@@ -1132,6 +1138,21 @@ textarea{
 
    .image-div{
     overflow: visible;
+   }
+   .contact-main-form{
+    transform: scale(.8);
+   }
+   .experience{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+   }
+   .experience-child1,.experience-child2{
+    transform: scale(.6);
+    align-items: center;
+    
    }
    
 }
